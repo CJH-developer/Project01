@@ -124,7 +124,7 @@ public class FoodDAO {
 	public void order () {
 		Connection conn = null;
 		PreparedStatement pstmt = null;
-		String sql = "DELETE FROM ORDER_LIST";
+		String sql = "DELETE FROM ORDER_LIST order by order_num";
 		
 		try {
 			
