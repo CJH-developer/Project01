@@ -16,7 +16,7 @@
 				<div class="wrapper__left">
 					<div class="wrapper__left__top">
 						<div class="left__top__title">
-							<div class="top__title__name"><a href="${pageContext.request.contextPath }/order/main.jsp">장바구니</a></div>
+							<div class="top__title__name"><a href="${pageContext.request.contextPath }/order/main.jsp">메뉴선택</a></div>
 						</div>
 						<div class="left__top__button">
 							<button type="submit" class="top_button" >주문하기</button>

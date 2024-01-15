@@ -95,7 +95,7 @@ public class FoodDAO {
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
 		
-		String sql = "select * from order_list";
+		String sql = "select * from order_list order by order_num";
 		
 		try {
 			conn = dataSource.getConnection();
@@ -124,7 +124,7 @@ public class FoodDAO {
 	public void order () {
 		Connection conn = null;
 		PreparedStatement pstmt = null;
-		String sql = "DELETE FROM ORDER_LIST order by order_num";
+		String sql = "DELETE FROM ORDER_LIST";
 		
 		try {
 			

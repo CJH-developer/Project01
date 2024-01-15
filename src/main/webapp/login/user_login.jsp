@@ -22,7 +22,9 @@
 					<div class="wrapper__footer">
 						<div class="footer__button">
 							<button class="join_button" type="submit" value="로그인">로그인</button>
-							<button class="join_button" type="submit" value="회원가입" onclick="location.href='/login/join.user'">회원가입</button>
+							<a href="${pageContext.request.contextPath }/login/join.user">
+								<button class="join_button" type="button" value="회원가입" >회원가입</button>
+							</a>
 						</div>
 						<div class="wrapper__footer__title">Copyright &copy; By Choi 2024.XX.XX~</div>
 					</div>
