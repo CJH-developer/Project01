@@ -147,7 +147,7 @@ html, body{
 
 .right__table{
 	table-layout: fixed;
-	border-collapse: collapse;
+/*	border-collapse: collapse;*/
 	line-height: 1.5;
   	border: 1px solid #ccc;
   	margin: 20px 10px;
@@ -164,7 +164,7 @@ thead{
 tbody{
 	display:block;
     overflow-y: scroll;
-    height:520px;
+    height:100%;
     width:100%;
 }
 
